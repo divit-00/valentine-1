@@ -1,8 +1,12 @@
 #valentinesButton {
+  display: block;
   position: absolute;
-  top: 60%;              /* below center text */
+
+  /* 👇 move button lower */
+  top: 65%;
   left: 50%;
   transform: translateX(-50%);
+
   z-index: 10;
 
   background-color: #2d2dff;
@@ -23,3 +27,4 @@
   background-color: #1f1faa;
   color: #eee;
 }
+
